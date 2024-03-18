@@ -1,0 +1,11 @@
+interface bit_mem_64  bm64;
+logic [0:65536]addr;
+logic [0:15]data;
+logic wr ;
+logic rd;
+logic clk;
+logic rst;
+
+endinterface 
+
+
